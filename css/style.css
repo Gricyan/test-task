@@ -74,13 +74,9 @@ main {
 }
 
 .item-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 13px 35px;
-  margin: 18px 25px;  
+  margin: 18px 25px;
+  column-count: 5;
+  column-gap: 38px;
 }
 
 .item {
@@ -91,16 +87,19 @@ main {
   flex-direction: column;
   align-content: center;
   align-items: center;
+  margin-bottom: 13px;
   background-color: var(--color-blue);
 }
 
 .item h2 {
+  margin-top: 10px;
   margin-bottom: 0px;
   color: var(--color-light);
 }
 
 .item p {
   margin-top: 0px;
+  text-align: center;
   color: var(--color-dark);
   font-family: var(--font);
   font-size: var(--font-size-2);
