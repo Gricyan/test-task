@@ -77,9 +77,10 @@ main {
   margin: 18px 25px;
   column-count: 5;
   column-gap: 38px;
+  height: 300px;
 }
 
-.item {
+.item-element {
   width: 103px;
   height: 142px;
   display: flex;
@@ -91,13 +92,13 @@ main {
   background-color: var(--color-blue);
 }
 
-.item h2 {
+.item-element h2 {
   margin-top: 10px;
   margin-bottom: 0px;
   color: var(--color-light);
 }
 
-.item p {
+.item-element p {
   margin-top: 0px;
   text-align: center;
   color: var(--color-dark);

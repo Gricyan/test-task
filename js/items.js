@@ -1,0 +1,24 @@
+
+
+for (let i = 1; i <= 10; i++) {
+
+const divItemElement = document.createElement("div");
+divItemElement.classList.add("item-element");
+
+const divItemText = document.createElement("div");
+divItemText.classList.add("item-text");
+
+const itemHeader = document.createElement("h2");
+const itemHeaderText = document.createTextNode("Item");
+
+const itemPosition = document.createElement("p");
+const itemPositionText = document.createTextNode("Pos." + i);
+
+divItemElement.append(divItemText);
+divItemText.append(itemHeader);
+itemHeader.append(itemHeaderText);
+divItemText.append(itemPosition);
+itemPosition.append(itemPositionText);
+
+document.querySelector(".item-container").append(divItemElement);
+}
