@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/slider.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,14 +25,53 @@
         <h2>Sidebar</h2>
       </aside>
       <main>
+        <div class="slider-container">
+          <input type="radio" name="t" id="t1" checked>
+          <input type="radio" name="t" id="t2">
+          <input type="radio" name="t" id="t3">
+          <input type="radio" name="t" id="t4">
+          <input type="radio" name="t" id="t5">
+          
+          <div class="slider">
+            <div class="slide s1">
+              <div class="meme meme1"></div>
+            </div>
+            <div class="slide">
+              <div class="meme meme2"></div>
+            </div>
+            <div class="slide">
+              <div class="meme meme3"></div>
+            </div>
+            <div class="slide">
+              <div class="meme meme4"></div>
+            </div>
+            <div class="slide">
+              <div class="meme meme5"></div>
+            </div>
+          </div>
+          <div class="low-panel">            
+            <div class="dots">
+              <label for="t1" class="dot"></label>
+              <label for="t2" class="dot"></label>
+              <label for="t3" class="dot"></label>
+              <label for="t4" class="dot"></label>
+              <label for="t5" class="dot"></label>
+            </div>
+          </div>
+        </div>
         <div class="item-container">
         </div>
       </main>
     </div>
+    <section class="boring-section">
+      <div class="boring-text">
+        <p>If the task looks boring </p>
+      </div>
+      <button class="click-button">Click here</button>
+      <button class="reset-button">Go back</button>
+    </section>
   </div>
-
-  
-
   <script src="js/items.js"></script>
+  <script src="js/slider.js"></script>
 </body>
 </html>
