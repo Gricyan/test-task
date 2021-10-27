@@ -143,23 +143,23 @@ input{
 }
 
 .meme1{
-  background-image: url(memes/meme1.jpg);
+  background-image: url(./memes/meme1.jpg);
 }
 
 .meme2{
-  background-image: url(memes/meme2.jpg);
+  background-image: url(./memes/meme2.jpg);
 }
 
 .meme3{
-  background-image: url(memes/meme3.jpg);
+  background-image: url(./memes/meme3.jpg);
 }
 
 .meme4{
-  background-image: url(memes/meme4.jpg);
+  background-image: url(./memes/meme4.jpg);
 }
 
 .meme5{
-  background-image: url(memes/meme5.jpg);
+  background-image: url(./memes/meme5.jpg);
 }
 
 .boring-text {
